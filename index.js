@@ -43,11 +43,11 @@ inquirer.prompt([
 ]).then(function (data) {
     axios.get(`https://api.github.com/users/${data.githubUserName}`).then(function (response) {
 
-
-        const readMe = `# ${data.projectName}
-                    # ${data.licenseName}
-                    # ${data.email}
-                    # ${data.githubUserName} 
+        const test = "```";
+        const readMe = `${data.projectName}
+                    ${data.licenseName}
+                    ${data.email}
+                    ${data.githubUserName} 
                     # Table of Contents:
                     1. Quick start
                     2. User Story
@@ -59,13 +59,13 @@ inquirer.prompt([
                     1. Clone the repo: https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/gwu-arl-fsf-pt-08-2020-u-c.git
                     2. Pull the latest code version
                     ## User Story
-
+                    ${test}
                     AS A developer
                     I WANT a README generator
                     SO THAT can quickly create a professional README for a new project
-
+                    ${test}
                     ## Acceptance Criteria
-
+                    ${test}
                     GIVEN a command-line application that accepts user input
                     WHEN I am prompted for information about my application repository
                     THEN a quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -81,7 +81,7 @@ inquirer.prompt([
                     THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
                     WHEN I click on the links in the Table of Contents
                     THEN I am taken to the corresponding section of the README
-                    
+                    ${test}
                     ## Project description
                      # ${data.projectDescription}
                      
