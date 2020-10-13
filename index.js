@@ -39,15 +39,29 @@ inquirer.prompt([
         message: "Please enter your link in the Table of Content?",
         name: "link"
 
+    },
+
+    {
+        type: "input",
+        message: "Please enter your repo link to clone the project?",
+        name: "repoLink"
+
     }
 ]).then(function (data) {
     axios.get(`https://api.github.com/users/${data.githubUserName}`).then(function (response) {
 
         const backTick = "```";
         const readMe =
-            `${data.projectName}
+`## Project Name: 
+${data.projectName}
+
+## Licence:
 ${data.licenseName}
+
+## Email:
 ${data.email}
+
+## User Name:
 ${data.githubUserName} 
 
 Node.js and ES6+ Homework: Good README Generator
@@ -60,10 +74,12 @@ Table of Contents:
 2. User Story
 3. Acceptance Criteria
 4. Project description
-5. Creators
+5. Installation
+6. Usage
+7. Creators
 
 ## Quick Start
-1. Clone the repo: https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/gwu-arl-fsf-pt-08-2020-u-c.git
+1. Clone the repo: ${data.repoLink}
 2. Pull the latest code version
 
 
@@ -99,6 +115,16 @@ ${backTick}
 ## Project description
 ${data.projectDescription}
          
+## Installation
+${backTick}
+Run --> npm i in terminal
+${backTick}
+
+
+## Usage
+
+A command-line application will allow for quick and easy generation of a project README to get started quickly. 
+This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 
 ## Creators
 Project created by: Venus Hu 
