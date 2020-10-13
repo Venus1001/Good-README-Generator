@@ -2,13 +2,13 @@
 Auto generate a good README file
 
 ## Licence:
-
+MIT
 
 ## Email:
 autumn.qiu@icloud.com
 
 ## User Name:
-test 
+Venus1001 
 
 Node.js and ES6+ Homework: Good README Generator
                
@@ -25,7 +25,7 @@ Table of Contents:
 7. Creators
 
 ## Quick Start
-1. Clone the repo: test
+1. Clone the repo: https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/gwu-arl-fsf-pt-08-2020-u-c/tree/master/09-Week_NodeJS/02-Homework
 2. Pull the latest code version
 
 
@@ -74,10 +74,10 @@ This will allow a project creator to spend more time working on finishing the pr
 
 ## Application usage guidance
 
-![](command-line app.gif)
+![demo the command-line application](assets/command-line app.gif)
 
 ## Creators
 Project created by: Venus Hu 
 
 Github: 
-test
+https://github.com/Venus1001/Good-README-Generator.git

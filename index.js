@@ -128,7 +128,7 @@ This will allow a project creator to spend more time working on finishing the pr
 
 ## Application usage guidance
 
-![](command-line app.gif)
+![demo the command-line application](assets/command-line app.gif)
 
 ## Creators
 Project created by: Venus Hu 
