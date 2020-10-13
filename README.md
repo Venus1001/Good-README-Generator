@@ -1,14 +1,14 @@
 ## Project Name: 
-Auto generate a good README file
+test
 
 ## Licence:
-MIT
+tet
 
 ## Email:
-autumn.qiu@icloud.com
+test
 
 ## User Name:
-Venus1001 
+test 
 
 Node.js and ES6+ Homework: Good README Generator
                
@@ -25,7 +25,7 @@ Table of Contents:
 7. Creators
 
 ## Quick Start
-1. Clone the repo: https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/gwu-arl-fsf-pt-08-2020-u-c/tree/master/09-Week_NodeJS/02-Homework
+1. Clone the repo: test
 2. Pull the latest code version
 
 
@@ -59,7 +59,7 @@ THEN I am taken to the corresponding section of the README
 
 
 ## Project description
-When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+test
          
 ## Installation
 ```
@@ -74,10 +74,10 @@ This will allow a project creator to spend more time working on finishing the pr
 
 ## Application usage guidance
 
-![demo the command-line application](assets/command-line app.gif)
+![demo the command-line application](./assets/command-line-app.gif)
 
 ## Creators
 Project created by: Venus Hu 
 
 Github: 
-https://github.com/Venus1001/Good-README-Generator.git
+test
