@@ -52,7 +52,7 @@ inquirer.prompt([
 
         const backTick = "```";
         const readMe =
-`## Project Name: 
+            `## Project Name: 
 ${data.projectName}
 
 ## Licence:
@@ -125,6 +125,11 @@ ${backTick}
 
 A command-line application will allow for quick and easy generation of a project README to get started quickly. 
 This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+
+## Application usage guidance
+
+[![Watch the video](assets/command-line app.gif)]
+
 
 ## Creators
 Project created by: Venus Hu 
