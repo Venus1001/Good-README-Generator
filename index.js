@@ -128,8 +128,7 @@ This will allow a project creator to spend more time working on finishing the pr
 
 ## Application usage guidance
 
-[![Watch the video](assets/command-line app.gif)]
-
+![](command-line app.gif)
 
 ## Creators
 Project created by: Venus Hu 
